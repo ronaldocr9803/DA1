@@ -1,0 +1,19 @@
+ .list-unstyledd
+    {
+        list-style: none;
+    }
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: $input-height;
+  padding: $input-padding-y $input-padding-x;
+  font-family: $input-font-family;
+  @include font-size($input-font-size);
+  font-weight: $input-font-weight;
+  line-height: $input-line-height;
+  color: $input-color;
+  background-color: white;
+  background-clip: padding-box;
+  border: $input-border-width solid $input-border-color;
+  }

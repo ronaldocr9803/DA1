@@ -1,0 +1,44 @@
+.carousel-indicators li {
+  #background-color: #999;
+  background-color: rgba(70,70,70,.25);
+}
+.carousel-indicators .active {
+  background-color: #444;
+}
+
+.banner-area {
+  background: url(../img/banner01.jpg) center; /*hero-bg*/
+  background-size: cover;
+}
+.img-responsive
+{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.btn-chitiet
+{
+	margin-top: 10px;
+	background: #fc6600;
+	color: #fff;
+	border-color: #fc6600;
+	width: 100%;
+	border-radius: 0px !important;
+}
+.price-new {
+    color: #e82c0c;
+    font-size: 17px;
+    font-weight: bold;
+}
+.section-top-border1
+{
+  padding: 30px 0;
+  border-top: 1px dotted #eee;
+}
+#nameoftour:hover
+{
+	color: #fc6600;
+}
+.checked {
+  color: orange;
+}
